@@ -1,0 +1,22 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Notificationist\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "NotificationistTest\\": "tests"
+  },
+  "config": {
+    "platform": {
+      "php": "7.3"
+    },
+    "process-timeout": 0,
+    "secure-http": true,
+    "sort-packages": true
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "vimeo/psalm": "^3.0"
+  }
+}
